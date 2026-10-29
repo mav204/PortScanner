@@ -1,0 +1,36 @@
+# Scan results: reveal open ports, services and versions of scanned hosts
+reports/
+*.pdf
+*.nmap
+*.gnmap
+*.xml
+comparison.txt
+
+# Personal notes and AI assistant settings
+CLAUDE.md
+.claude/
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+secrets.*
+credentials.*
+
+# Python environment and build files (contain absolute local paths)
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor and OS files (may contain local paths and personal settings)
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
