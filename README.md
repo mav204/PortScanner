@@ -39,7 +39,7 @@ main.py ──► for each open port:
 ## Project structure
 
 ```
-Port_Scanner/
+PortScanner/
 ├── scanner/
 │   ├── core.py       # port_state(): one port; deploy_port_scan(): many ports, in parallel
 │   ├── services.py   # port number → service name
@@ -55,8 +55,8 @@ Port_Scanner/
 You need Python 3.10 or later.
 
 ```bash
-git clone <repository-url>
-cd Port_Scanner
+git clone https://github.com/mav204/PortScanner.git
+cd PortScanner
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
